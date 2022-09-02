@@ -234,7 +234,6 @@ html {
 }
 
 .header .main-list li>.second-menue ul li {
-    padding: 15px 20px;
     cursor: pointer;
     position: relative;
     z-index: 1;
@@ -256,6 +255,8 @@ html {
     color: var(--clr-primary);
     font-size: 18px;
     font-weight: bold;
+    display: block;
+    padding: 15px 20px;
 }
 
 .header .main-list li>.second-menue ul li i {
